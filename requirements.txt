@@ -1,0 +1,13 @@
+#fairseq#
+git clone https://github.com/facebookresearch/fairseq.git
+cd fairseq 
+pip install --editable ./
+
+#Pytorch#
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+
+#SentencePiece#
+pip install sentencepiece
+
+#tensorboard#
+pip install tensorboardX
